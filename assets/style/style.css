@@ -1,0 +1,110 @@
+/* BASIC STYLES HERE */
+
+
+
+.color{
+color: rgb(255, 255, 255);
+}
+
+.fontUbuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.clock{
+  font-size: 23vh;
+  color: rgb(247, 248, 248);
+}
+
+.stickyTodo {
+min-height: 40vh;
+position: absolute;
+bottom: 2vh;
+right: 2vh;
+}
+.stickyImg {
+position: absolute;
+bottom: 1vh;
+left: 2vh;
+}
+.stickyWeather {
+  min-width: 15vh;
+position: absolute;
+top: 1vh;
+right: 3vh;
+}
+.stickyClock {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 20vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.stickyClockChange {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 20vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.stickyClockMessage {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 47vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-size: 7vh;
+  color: rgb(247, 248, 248);
+}
+.stickyClockAmPm {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 38.4vh !important;
+  margin-left: 56vh;
+  font-size: 7vh;
+  color: rgb(247, 248, 248);
+}
+.stickyQuotes {
+  position: absolute;
+  bottom: 3vh;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .transparent{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(247, 248, 248);
+  }
+
+  .cardcolor {
+    background:rgba(207, 207, 207, 0.863);
+    opacity: 0.93;
+    border: none;
+    border-radius: 2%;
+  }
+
+  .up {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .up:hover {
+    top: -20px;
+  }
+
+  .down{
+    position: relative;
+    bottom: 0;
+    opacity: 0;
+    transition: bottom ease 0.5s;
+  }
+  
+  .reveal:hover  .down{
+    bottom: -20px;
+    opacity: 1!important;
+  }
